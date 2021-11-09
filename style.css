@@ -1,0 +1,107 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    width: 100%;
+    background-color: #f2f2f2;
+    position: relative;
+    
+}
+header section {
+    width: 60%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+header section .left {
+    height: 100%;
+    width: 400px;
+}
+header section .right {
+    height: 100%;
+    width: 300px;
+}
+header section nav {
+    height: 100%;
+    width: 500px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.5s;
+    
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+header .social {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+header .social ul li {
+    list-style: none;
+    display: inline-block;
+    
+}
+header .social ul li a {
+    text-decoration:none;
+    color: gray;
+    opacity: 0.5;
+}
+nav ul li a {
+    text-decoration: none;
+    color: gray;
+    
+}
+nav a.active {
+    color:#194D91;
+}
+nav a:hover{
+    color:#194D91;
+    transition: 0.5;
+}
+header .left span input {
+    border:0px;
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+    color: black;
+}
+header .left input:focus {
+    outline: none;
+}
+main {
+    background-image: url(https://static.wixstatic.com/media/5bfb6f_26f1a5c736e544e09c63c82a4c792645~mv2_d_3839_1306_s_2.jpg/v1/fill/w_1903,h_475,al_b,q_85,usm_0.66_1.00_0.01/5bfb6f_26f1a5c736e544e09c63c82a4c792645~mv2_d_3839_1306_s_2.webp);
+    width: 1301px;
+    height: 475px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+    
+    
+    
+}
+main p {
+    color: white;
+    font-size: 19px;
+}
+main h2 {
+    color: white;
+    font-size: 50px;
+    
+}
+main{
+    text-align: center;
+    
+    
+}
+
+         
+    
